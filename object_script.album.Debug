@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\widget.o
+./debug\dialog.o
+./debug\btnslider.o
+./debug\thumbnails.o
+./debug\qrc_resorce.o
+./debug\moc_widget.o
+./debug\moc_dialog.o
+./debug\moc_btnslider.o
+./debug\moc_thumbnails.o
+);

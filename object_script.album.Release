@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\widget.o
+./release\dialog.o
+./release\btnslider.o
+./release\thumbnails.o
+./release\qrc_resorce.o
+./release\moc_widget.o
+./release\moc_dialog.o
+./release\moc_btnslider.o
+./release\moc_thumbnails.o
+);

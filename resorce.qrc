@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/图片1.png</file>
+        <file>image/图片2.png</file>
+        <file>image/图片3.png</file>
+        <file>image/图片4.png</file>
+        <file>image/图片5.png</file>
+        <file>image/图片6.png</file>
+        <file>image/图片7.png</file>
+        <file>image/图片8.png</file>
+        <file>image/图片9.png</file>
+        <file>image/图片10.png</file>
+        <file>image/图片11.png</file>
+        <file>image/图片12.png</file>
+        <file>image/图片13.png</file>
+        <file>image/图片14.png</file>
+        <file>image/图片15.png</file>
+        <file>image/图片16.png</file>
+        <file>image/图片17.png</file>
+        <file>image/图片18.png</file>
+    </qresource>
+</RCC>

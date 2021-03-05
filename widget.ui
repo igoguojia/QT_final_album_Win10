@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1070</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1070</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1070</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>1070</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#scrollArea
+{
+border:0px;
+}
+</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1070</width>
+      <height>800</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnTools">
+   <property name="geometry">
+    <rect>
+     <x>1003</x>
+     <y>0</y>
+     <width>67</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>67</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnTools
+{
+border-image: url(:/image/图片14.png);
+}
+#btnTools:pressed
+{
+border-image: url(:/image/图片6.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnZoom">
+   <property name="geometry">
+    <rect>
+     <x>401</x>
+     <y>0</y>
+     <width>67</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>67</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>67</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnZoom
+{
+border-image: url(:/image/图片10.png);
+}
+#btnZoom:pressed
+{
+border-image: url(:/image/图片3.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAll">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>170</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>170</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#btnAll
+{
+border-image: url(:/image/图片8.png);
+/*border:0pix;*/
+}
+/*QPushButton#btnAll:hover
+{
+border-image: url(:/image/图片1.png);
+}*/
+QPushButton#btnAll:pressed
+{
+border-image: url(:/image/图片1.png);
+
+}</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>170</width>
+     <height>66</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOpen">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>0</y>
+     <width>117</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>117</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>117</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnOpen
+{
+border-image: url(:/image/图片9.png);
+}
+#btnOpen:pressed
+{
+border-image: url(:/image/图片2.png);
+}</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>67</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRotate">
+   <property name="geometry">
+    <rect>
+     <x>535</x>
+     <y>0</y>
+     <width>67</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>67</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>67</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnRotate
+{
+border-image: url(:/image/图片12.png);
+}
+#btnRotate:pressed
+{
+border-image: url(:/image/图片5.png);
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelete">
+   <property name="geometry">
+    <rect>
+     <x>468</x>
+     <y>0</y>
+     <width>67</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>67</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>67</width>
+     <height>67</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnDelete
+{
+	border-image: url(:/image/图片11.png);
+}
+#btnDelete:pressed
+{
+border-image: url(:/image/图片4.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnNext">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>110</y>
+     <width>140</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>139</width>
+     <height>800</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnNext:hover
+{
+border-image: url(:/image/图片16.png);
+}
+#btnNext:pressed
+{
+	border-image: url(:/image/图片16.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPrevious">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>140</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>139</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btnPrevious:hover
+{
+border-image: url(:/image/图片15.png);
+}
+#btnPrevious:pressed
+{
+border-image: url(:/image/图片15.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
